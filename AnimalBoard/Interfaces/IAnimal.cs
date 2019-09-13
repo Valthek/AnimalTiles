@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using AnimalBoard.Objects;
 
-namespace AnimalBoard
+namespace AnimalBoard.Interfaces
 {
     public interface IAnimal : IObject
     {

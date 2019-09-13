@@ -1,7 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using AnimalBoard.Interfaces;
+using AnimalBoard.Objects;
 
-namespace AnimalBoard
+namespace AnimalBoard.Services
 {
     public class GameService
     {
@@ -23,5 +24,4 @@ namespace AnimalBoard
                     );
         }
     }
-
 }

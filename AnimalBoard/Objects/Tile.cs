@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using AnimalBoard.Interfaces;
 
-namespace AnimalBoard
+namespace AnimalBoard.Objects
 {
     public enum TileType
     {

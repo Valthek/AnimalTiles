@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using AnimalBoard;
+using AnimalBoard.Objects;
+using AnimalBoard.Services;
 using NUnit.Framework;
 
 namespace AnimalBoardTest
