@@ -1,0 +1,1 @@
+﻿body .board{display:flex;flex-wrap:wrap;justify-content:space-evenly;}body .board div{width:4%;border:1px solid #808080;background-color:#00aa21;}

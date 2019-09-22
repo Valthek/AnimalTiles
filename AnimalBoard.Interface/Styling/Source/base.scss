@@ -1,0 +1,12 @@
+﻿body {
+    .board{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+        div{
+            width:4%;
+            border: 1px solid gray;
+            background-color: #00aa21;
+        }
+    }
+}

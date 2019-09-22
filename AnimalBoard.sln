@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalBoard", "AnimalBoard\AnimalBoard.csproj", "{187B997D-1C11-402A-A8C8-5881E5EA0C55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalBoard.Library", "AnimalBoard\AnimalBoard.Library.csproj", "{187B997D-1C11-402A-A8C8-5881E5EA0C55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalBoardTest", "AnimalBoardTest\AnimalBoardTest.csproj", "{AEED5452-6837-443C-B4BB-D9AED6310CA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalBoardTest", "AnimalBoardTest\AnimalBoardTest.csproj", "{AEED5452-6837-443C-B4BB-D9AED6310CA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalBoard.Interface", "AnimalBoard.Interface\AnimalBoard.Interface.csproj", "{39C49B94-C85D-4141-89A7-DAC196847A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalBoard.Forms", "AnimalBoard.Forms\AnimalBoard.Forms.csproj", "{5B36DBA6-25C3-4676-9647-9438BFE9A39A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{AEED5452-6837-443C-B4BB-D9AED6310CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEED5452-6837-443C-B4BB-D9AED6310CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEED5452-6837-443C-B4BB-D9AED6310CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C49B94-C85D-4141-89A7-DAC196847A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C49B94-C85D-4141-89A7-DAC196847A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C49B94-C85D-4141-89A7-DAC196847A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C49B94-C85D-4141-89A7-DAC196847A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B36DBA6-25C3-4676-9647-9438BFE9A39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B36DBA6-25C3-4676-9647-9438BFE9A39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B36DBA6-25C3-4676-9647-9438BFE9A39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B36DBA6-25C3-4676-9647-9438BFE9A39A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

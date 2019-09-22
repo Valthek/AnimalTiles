@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using AnimalBoard.Interfaces;
+using AnimalBoard.Library.Objects;
 using AnimalBoard.Objects;
 
 namespace AnimalBoard.Services
@@ -8,10 +9,18 @@ namespace AnimalBoard.Services
     {
         public List<Tile> Board { get; set; }
         public List<IAnimal> Animals { get; set; }
+        
 
         public GameService(int boardWidth, int boardHeight)
         {
             InitializeBoard(boardWidth, boardHeight);
+            Animals = new List<IAnimal>()
+            {
+                new Rabbit()
+                {
+                    Position = new Position(2,2)
+                }
+            };
         }
 
         private void InitializeBoard(int width, int height)

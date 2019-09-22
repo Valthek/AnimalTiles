@@ -1,4 +1,6 @@
-﻿namespace AnimalBoard.Objects
+﻿using System.Drawing;
+
+namespace AnimalBoard.Objects
 {
     public class Position
     {
@@ -50,6 +52,19 @@
             p.x = a.x + b.x;
             p.y = a.y + b.y;
             return p;
+        }
+
+        public static Position operator *(Position a, int b)
+        {
+            Position p = new Position();
+            p.x = a.x *b;
+            p.y = a.y *b;
+            return p;
+        }
+
+        public Point GetPoint()
+        {
+            return new Point(this.x, this.y);
         }
     }
 }

@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using AnimalBoard.Objects
+@model AnimalBoard.Interface.Models.AnimalBoardModel 
+
+<div class="board">
+    @foreach(Tile t in Model.Tiles)
+    {
+        <div class=""></div>
+    }
+</div>
